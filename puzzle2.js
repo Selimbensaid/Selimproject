@@ -8,7 +8,7 @@ $(document).ready(function() {
             return
         }
 
-        const userAnswer = $('#user-answer').val().toLowerCase()
+        const userAnswer = $('#user-answer').val()
         const correctAnswer = '78,24,6,2'
 
         if (userAnswer === correctAnswer) {
@@ -20,10 +20,6 @@ $(document).ready(function() {
 
         hasAnswered = true
     }
-
-    $('#checkButton').on('click', function() {
-        checkAnswer()
-    })
 
     $('#submit-button').on('click', function() {
         checkAnswer()
