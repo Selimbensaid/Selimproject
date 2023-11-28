@@ -1,0 +1,58 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'SpookyFont';
+    margin: 0;
+}
+
+#made-by {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+#game-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#start-screen {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 48px;
+    color: #cc0000;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #cc0000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #cc0000;
+}
+

@@ -1,0 +1,69 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+body {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+}
+
+#game-container {
+    background-color: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#start-screen h1 {
+    text-align: center;
+    color: #8b0000;
+}
+
+#start-screen p {
+    text-align: center;
+}
+
+.puzzle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b0000;
+}
+
+#puzzle-container {
+    text-align: center;
+}
+
+#answer-label {
+    margin-bottom: 10px;
+    color: #993366;
+}
+
+#user-answer {
+    padding: 5px;
+    background-color: #333;
+    color: #8b0000;
+    border: 1px solid #8b0000;
+}
+
+#submit-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #8b0000;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+#submit-button:hover {
+    background-color: #660000;
+}

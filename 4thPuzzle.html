@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terror Tunnels - Chapter 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <img src="logo.png" alt="TerrorTunnels">
+<div id="game-container">
+    <div id="start-screen">
+        <h1>Chapter IV :</h1>
+        <p> In the last room, among various sealed and labeled boxes, Alex found a mysterious question carved on the wall: "I talk without a mouth and listen without ears. I don't have a body, but I come alive with the wind. What am I?" </p>
+    </div>
+
+    <div id="puzzle-4" class="puzzle">
+        <h2>Puzzle 4: Whispering Riddles Maze
+        </h2>
+        <p>Hint: Think about elements associated with sound.</p>
+    </div>
+
+    <div id="puzzle-container">
+        <p>What's the answer?</p>
+        <label for="user-answer" id="answer-label">Your Answer:</label>
+        <input type="text" id="user-answer" placeholder="Enter your answer">
+        <button id="submit-button" onclick="checkAnswer()">Submit</button>
+        <a href="menu.html"> Forfeit </a>
+    </div>
+
+    <script>
+       function checkAnswer() {
+            const userAnswer = document.getElementById('user-answer').value.toLowerCase()
+            const correctAnswer = 'echo'
+            if (userAnswer === correctAnswer) {
+                alert('Congrats! The room tried to hold you captive, but your brilliance shattered its plans.')
+                window.location.href = 'Ending.html'
+            } else {
+                alert('They say practice makes perfect. In your case, it just makes for more laughs.')
+            }
+        }
+    </script>
+    
+</div>
+
+</body>
+</html>
