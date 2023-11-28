@@ -27,21 +27,8 @@
         <button id="submit-button" onclick="checkAnswer()">Submit</button>
         <a href="menu.html"> Forfeit </a>
     </div>
-
-    <script>
-       function checkAnswer() {
-            const userAnswer = document.getElementById('user-answer').value.toLowerCase()
-            const correctAnswer = 'echo'
-            if (userAnswer === correctAnswer) {
-                alert('Congrats! The room tried to hold you captive, but your brilliance shattered its plans.')
-                window.location.href = 'Ending.html'
-            } else {
-                alert('They say practice makes perfect. In your case, it just makes for more laughs.')
-            }
-        }
-    </script>
-    
 </div>
-
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="puzzle4.js"></script>
 </body>
 </html>
